@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+
+/*------ Header------*/
+
+.header {
+  font-size: 40px;
+  border-width: 5px;
+}
+
+.navbar-design {
+  background-color: #292727;
+}
+
+#logo {
+  text-transform: uppercase;
+  font-size: 250%;
+  font-weight: 500;
+  color: whitesmoke;
+  padding-left: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+#logo:hover {
+  border-bottom: none;
+}
+#menu-bar {
+  list-style-type: none;
+  margin-top: 20px;
+  float: inline-end;
+}
+
+#logo,
+#menu-bar {
+  line-height: 75px;
+}
+
+#menu-bar li {
+  display: inline;
+  position: relative;
+  word-spacing: 0px;
+  font-size: 150%;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+#menu-bar a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+#menu-bar a:hover {
+  border-bottom: 2px solid purple;
+}
+
+#navbarNavDropdown-design {
+  color: whitesmoke;
+}
+
+/*-----------------Hero Image------------------*/
+
+
+.hero-outer {
+  height: 1150px;
+  width: 100%;
+  overflow: hidden;
+}
+
+@keyframes hero-zoom {
+  from {
+    transform:scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
+
+/*---------------- Story Section------------*/
+
+.story {
+  color: red;
+}
