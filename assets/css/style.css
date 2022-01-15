@@ -59,11 +59,16 @@
 
 /*-----------------Hero Image------------------*/
 
+.hero-image{
+width: 100%;
+line-height: normal;
+background-repeat: no-repeat center center;
+padding-bottom: 10%;
+}
 
-.hero-outer {
-  height: 1150px;
-  width: 100%;
-  overflow: hidden;
+.hero-image-container{
+
+overflow: hidden;
 }
 
 @keyframes hero-zoom {
