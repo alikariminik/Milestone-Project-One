@@ -61,14 +61,14 @@
 
 .hero-image{
 width: 100%;
-line-height: normal;
+height: 70%;
 background-repeat: no-repeat center center;
-padding-bottom: 10%;
+position: relative;
 }
 
 .hero-image-container{
-
 overflow: hidden;
+height: 1100px;
 }
 
 @keyframes hero-zoom {
