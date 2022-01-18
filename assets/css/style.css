@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
 
 /*------ Header------*/
 
@@ -8,16 +9,18 @@
 }
 
 .navbar-design {
-  background-color: #292727;
+  background-color: rgb(41, 39, 39);
 }
 
 #logo {
   text-transform: uppercase;
   font-size: 250%;
-  font-weight: 500;
+  font-family: 'Smooch', cursive;
+  letter-spacing: 3px;
+  font-weight: 400;
   color: whitesmoke;
   padding-left: 20px;
-  margin-top: 20px;
+  margin-top: 15px;
   text-decoration: none;
 }
 
@@ -26,7 +29,8 @@
 }
 #menu-bar {
   list-style-type: none;
-  margin-top: 20px;
+  margin-top: 15px;
+  font-family: cursive;
   float: inline-end;
 }
 
@@ -50,7 +54,7 @@
 }
 
 #menu-bar a:hover {
-  border-bottom: 2px solid purple;
+  border-bottom: 4px solid purple;
 }
 
 #navbarNavDropdown-design {
@@ -78,17 +82,19 @@ position: relative;
   bottom: 0px;
   right: 10px;
   position: absolute;
-  background-color: rgba(200, 100, 200, 0.4)
+  background-color: rgba(41, 39, 39, 0.33)
 }
 
 .hero-image-overlay h2{
   color:black;
   font-size:500%;
+  font-family: cursive;
 }
 
 .hero-image-overlay h3{
   color: black;
   font-style: italic;
+  font-family: cursive;
 }
 
 @keyframes hero-zoom {
@@ -143,5 +149,47 @@ position: relative;
 #story-image-caption{
   font-size: 20px;
   font-weight: 700;
+  text-align: center center;
+}
+
+/*-----------------Menu------------------*/
+
+.menu-heading h1{
   text-align: center;
+  font-family: 'Smooch', cursive;
+  font-size: 200px;
+  line-height: 200px;
+}
+
+
+/*-----------------Footer------------------*/
+
+.footer{
+  height: 100px;
+  width: 100%;
+  background-color: #292727;
+  position: relative;
+  bottom: 0px;
+  overflow: hidden;
+}
+
+.address p{
+  padding-left: 5%;
+  color: red;
+  font-weight: 700;
+}
+
+.social-media-icons{
+  text-align: center;
+  padding-top: 8%;
+}
+
+.social-media-icons li{
+  display: inline;
+  padding-right: 5%;
+}
+
+.social-media-icons i{
+  font-size: 200%;
+  color: red;
 }
