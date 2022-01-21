@@ -164,7 +164,7 @@ position: relative;
 
 .menu-blocks div{
   display: inline-block;
-  width: 24%;
+  width: 26%;
   text-align: center;
   height: 300px;
 }
@@ -180,7 +180,6 @@ position: relative;
   height: 100px;
   width: 100%;
   background-color: #292727;
-  position: absolute;
   bottom: 0px;
   overflow: hidden;
 }
