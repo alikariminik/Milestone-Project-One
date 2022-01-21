@@ -190,11 +190,39 @@ position: relative;
   border-width: 4px;
 }
 
+.download-menu{
+  position: absolute;
+  margin:auto;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 25%;
+  color: transparent;
+  background-color: transparent;
+  font-size: 0px;
+}
+
+.download-menu-text{
+  position: absolute;
+  margin:auto;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: transparent;
+  background-color:transparent;
+  border-color: transparent;
+  font-size: 30px;
+  vertical-align:middle;
+}
+
 #lunch{
   background: url("../images/lunch-overlay.jpg") no-repeat center center;
   height:100%;
   width: 100%;
-  
 }
 
 #dinner{
@@ -214,6 +242,25 @@ position: relative;
   height:100%;
   width: 100%;
 }
+
+/*-----------------Menu hover effects------------------*/
+
+#lunch-effect:hover{
+  -webkit-filter: brightness(30%);
+}
+
+#dinner-effect:hover{
+  -webkit-filter: blur(4px);
+}
+
+#sunday-effect:hover{
+  -webkit-filter: blur(4px);
+}
+
+#vegetarian-vegan-effect:hover{
+  -webkit-filter: blur(4px);
+}
+
  
 /*-----------------Footer------------------*/
 
