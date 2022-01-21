@@ -165,18 +165,41 @@ position: relative;
 
 .menu-blocks div{
   display: inline-block;
-  width: 49%;
+  width: 49.8%;
   text-align: center;
-  height: 560px;
-  background-color: #292727;
-  color: whitesmoke;
+  height: 550px;
+  color: black;
 }
 
 .menu-images{
-  height:80%;
+  height:100%;
   width: 100%;
 }
 
+#lunch{
+  background: url("../images/lunch-overlay.jpg") no-repeat center center;
+  height:100%;
+  width: 100%;
+}
+
+#dinner{
+  background: url("../images/dinner-overlay.jpg") no-repeat center ;
+  height:100%;
+  width: 100%;
+}
+
+#sunday{
+  background: url("../images/sunday-roast.jpg") no-repeat center center ;
+  height:100%;
+  width: 100%;
+}
+
+#vegetarian-vegan{
+  background: url("../images/veg-vegan-overlay.jpg") no-repeat center center ;
+  height:100%;
+  width: 100%;
+}
+ 
 /*-----------------Footer------------------*/
 
 .footer{
