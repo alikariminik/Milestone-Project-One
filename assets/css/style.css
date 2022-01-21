@@ -162,11 +162,14 @@ position: relative;
   padding-top: 120px;
 }
 
+
 .menu-blocks div{
   display: inline-block;
-  width: 26%;
+  width: 49%;
   text-align: center;
-  height: 300px;
+  height: 560px;
+  background-color: #292727;
+  color: whitesmoke;
 }
 
 .menu-images{
