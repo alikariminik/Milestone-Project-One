@@ -4,7 +4,7 @@
 /*------ Header------*/
 
 .header {
-  font-size: 40px;
+  font-size: 35px;
   border-width: 5px;
 }
 
@@ -16,10 +16,10 @@
   text-transform: uppercase;
   font-size: 250%;
   font-family: 'Smooch', cursive;
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   font-weight: 400;
   color: whitesmoke;
-  padding-left: 20px;
+  padding-left: 15px;
   margin-top: 15px;
   text-decoration: none;
 }
@@ -43,7 +43,7 @@
   display: inline;
   position: relative;
   word-spacing: 0px;
-  font-size: 150%;
+  font-size: 140%;
   padding-right: 10px;
   margin-top: 10px;
 }
@@ -110,8 +110,9 @@ position: relative;
 /*---------------- Story Section------------*/
 
 .story-container{
-  height: 600px;
+  height: 1000px;
   width: 100%;
+  padding: 3rem;
   background-color:rgb(248, 248, 192)
 }
 
@@ -126,7 +127,7 @@ position: relative;
 
 .story-content{
   padding-top: 30px;
-  position:relative;
+  height: fit-content;
 }
 
 .our-story-text{
@@ -138,18 +139,21 @@ position: relative;
 }
 
 #chef-grizzo-image{
-  background-repeat: no-repeat;
-  height: 90%;
+  background: url("../images/chef-grizzo.jpg") no-repeat center center;
+  padding-top: 3rem;
+  height: 100%;
   width: 100%;
   border: 3px solid black;
   border-radius: 200px;
   bottom: 10px;
+  position: relative;
 }
 
 #story-image-caption{
   font-size: 20px;
   font-weight: 700;
   text-align: center center;
+  position: absolute;
 }
 
 /*-----------------Menu------------------*/
@@ -157,7 +161,7 @@ position: relative;
 .menu-heading h1{
   text-align: center;
   font-family: 'Smooch', cursive;
-  font-size: 70px;
+  font-size: 85px;
   line-height: 40px;
   padding-top: 120px;
 }
@@ -265,6 +269,9 @@ position: relative;
   color: red;
 }
 
+.social-media-icons i:hover{
+  color: white;
+}
 
 /*-----------------Media Queries------------------*/
 
@@ -289,4 +296,6 @@ position: relative;
     height: 550px;
     vertical-align: middle;
     margin-bottom: 0.5rem;
+  }
 }
+
