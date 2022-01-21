@@ -179,14 +179,15 @@ position: relative;
 
 .menu-images-text-overlay{
   position: absolute;
-  top: 0;
-  left: 0;
+  margin:auto;
+  top: 35%;
+  left: 35%;
+  width: 30% ;
   text-align: center;
   font-weight: 500;
   color: black;
-  border-style: double;
-  border-color: red;
-  background-color: rgba(218, 96, 96, 0.644);
+  border: solid white 2px;
+  background-color:rgba(77, 68, 68, 0.11);
   border-width: 4px;
 }
 
@@ -200,23 +201,6 @@ position: relative;
   color: transparent;
   background-color: transparent;
   font-size: 0px;
-}
-
-.download-menu-text{
-  position: absolute;
-  margin:auto;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  color: transparent;
-  background-color:transparent;
-  border-color: transparent;
-  font-size: 30px;
-  vertical-align:middle;
 }
 
 #lunch{
@@ -245,20 +229,8 @@ position: relative;
 
 /*-----------------Menu hover effects------------------*/
 
-#lunch-effect:hover{
-  -webkit-filter: brightness(30%);
-}
-
-#dinner-effect:hover{
-  -webkit-filter: blur(4px);
-}
-
-#sunday-effect:hover{
-  -webkit-filter: blur(4px);
-}
-
-#vegetarian-vegan-effect:hover{
-  -webkit-filter: blur(4px);
+.menu-images-text-overlay:hover{
+  background-color: white;
 }
 
  
