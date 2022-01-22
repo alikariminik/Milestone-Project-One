@@ -18,7 +18,7 @@
   font-family: 'Smooch', cursive;
   letter-spacing: 0px;
   font-weight: 400;
-  color: whitesmoke;
+  color: #b86500;
   padding-left: 15px;
   margin-top: 15px;
   text-decoration: none;
@@ -27,7 +27,7 @@
 #logo:hover {
   border-bottom: none;
 }
-#menu-bar {
+#navigation-bar {
   list-style-type: none;
   margin-top: 15px;
   font-family: cursive;
@@ -35,11 +35,11 @@
 }
 
 #logo,
-#menu-bar {
+#navigation-bar {
   line-height: 75px;
 }
 
-#menu-bar li {
+#navigation-bar li {
   display: inline;
   position: relative;
   word-spacing: 0px;
@@ -48,13 +48,13 @@
   margin-top: 10px;
 }
 
-#menu-bar a {
+#navigation-bar a {
   text-decoration: none;
-  color: whitesmoke;
+  color: #b86500;
 }
 
-#menu-bar a:hover {
-  border-bottom: 4px solid #bf1717;
+#navigation-bar a:hover {
+  border-bottom: 4px solid #b86500;
 }
 
 #navbarNavDropdown-design {
@@ -115,7 +115,7 @@ position: relative;
   height: 1400px;
   width: 100%;
   padding: 10px;
-  background-color:#2f1302;
+  background-color:#f3ca36;
   overflow: hidden;
 }
 
@@ -123,20 +123,20 @@ position: relative;
   padding-top: 10px;
   padding-left: 10px;
   text-align: center;
-  color: whitesmoke
+  color: #320008
 }
 
 .home-introduction{
   text-align: left;
   font-size: 16px;
-  color: whitesmoke;
+  color: #320008;
   padding-top: 15px;
 }
 
 .opening-times{
   height: 100%;
   width: 100%;
-  color: whitesmoke;
+  color: #320008;
   padding-top: 15px;
 }
 
@@ -195,6 +195,15 @@ position: relative;
 
 /*-----------------Menu------------------*/
 
+.menu-page-background-color{
+  background-color: #f3ca36;
+}
+
+.menu-heading{
+  background-color: #f3ca36;
+  ;
+}
+
 .menu-heading h1{
   text-align: center;
   font-family: 'Smooch', cursive;
@@ -203,6 +212,9 @@ position: relative;
   padding-top: 120px;
 }
 
+.menu-blocks{
+  background-color: #f3ca36;
+}
 
 .menu-blocks div{
   display: inline-block;
@@ -280,18 +292,18 @@ position: relative;
 
 .footer{
   background-color: #0f0004;
-  color: #bf1717;
+  color: #b86500;
   overflow:hidden;
   padding-top: 30px;
 }
 
 #mobile-icon{
-  color:#bf1717;
+  color:#b86500;
   font-size: 150%;
 }
 
 #address-icon{
-  color:#bf1717;
+  color:#b86500;
   font-size: 150%;
 }
 
@@ -311,7 +323,7 @@ position: relative;
 .social-media-icons i{
   font-size: 250%;
   padding-right: 1%;
-  color: red;
+  color: #b86500;
 }
 
 /*-----------------Footer hover effects------------------*/
