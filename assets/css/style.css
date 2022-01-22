@@ -55,11 +55,18 @@
   color: #b86500;
 }
 
-#navigation-bar a:hover {
-  border-bottom: 4px solid #b86500;
+#navbarNavDropdown-design {
+  color: whitesmoke;
 }
 
-#navbarNavDropdown-design {
+/*-----------------Navigation Bar Hover------------------*/
+
+#logo:hover{
+  color:whitesmoke
+}
+
+#navigation-bar a:hover {
+  border-bottom: 4px solid #b86500;
   color: whitesmoke;
 }
 
@@ -304,6 +311,10 @@ position: relative;
 
 /*-----------------Booking Page------------------*/
 
+.booking-page-background-color{
+  background-color: #f3ca36;
+}
+
 .booking-heading{
   background-color: #f3ca36;
 }
@@ -313,10 +324,46 @@ position: relative;
   font-family: 'Gentium Book Basic', serif;
   font-size: 85px;
   line-height: 40px;
-  padding-top: 120px;
+  padding-top: 150px;
   color: #320008;
 }
- 
+
+.booking-form{
+  padding: 0 20% 40px 20%;
+  color:black
+}
+
+.booking-form input, .booking-form textarea{
+  background-color: whitesmoke;
+  border: black solid 2px;
+  color: #54000b;
+}
+
+::placeholder{
+  color: #000000;
+  font-weight: 400;
+  
+}
+
+.booking-form button{
+  width: 50%;
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #54000b;
+  color: #f3ca36;
+
+}
+
+/*-----------------Booking form hover------------------*/
+
+
+.booking-form button:hover{
+  background-color: #b86500;
+  color:#54000b;
+  font-size: 120%;
+}
+
 /*-----------------Footer------------------*/
 
 .footer{
