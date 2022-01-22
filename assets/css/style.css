@@ -136,9 +136,10 @@ position: relative;
 
 .home-introduction{
   text-align: left;
-  font-size: 16px;
+  font-size: 18px;
   color: #320008;
   padding-top: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .opening-times{
