@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
 @import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
 
 /*------ Header------*/
 
@@ -300,6 +301,21 @@ position: relative;
   background-color: white;
 }
 
+
+/*-----------------Booking Page------------------*/
+
+.booking-heading{
+  background-color: #f3ca36;
+}
+
+.booking-heading h1{
+  text-align: center;
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 85px;
+  line-height: 40px;
+  padding-top: 120px;
+  color: #320008;
+}
  
 /*-----------------Footer------------------*/
 
