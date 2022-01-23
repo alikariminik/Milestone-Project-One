@@ -205,16 +205,16 @@ https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-ce
 
  #### Media
  - [bartender.jpg] https://unsplash.com/photos/Iutgnhkdh2g Andrew C Taylor Jr
- - [cheers.jpg]
  - [delivering-order.jpg] https://mystock.themeisle.com/photo/fancy-restaurant/ Cristian Ungureanu
  - [dinner-overlay.jpg] https://unsplash.com/photos/NYBnDWeOX2c Loija Nguyen
  - [food-platter.jpg] https://www.pexels.com/photo/food-wood-art-winter-5975427/ Eva Elijas
+ - [happy-bar.jpg] https://unsplash.com/photos/GqC_kGJOuaM Elevate
+ - [happy-family.jpg] https://unsplash.com/photos/wYOPqmtDD0w Pablo Merchan Montes
  - [hero-image.jpg] https://unsplash.com/photos/N_Y88TWmGwA Jay Wennington
  - [kitchen_work_restaurant_cook_chef_professional_food_preparation-1327589.jpg] https://pxhere.com/en/photo/1327589
  - [lunch-overlay.jpg] https://unsplash.dogedoge.com/photos/pCxJvSeSB5A Monika Grabkowska
- - [noodle-soup.jpg]
+ - [salmon-and-wine.jpg] https://unsplash.com/photos/awj7sRviVXo Casey Lee
  - [steak.jpg] https://pixabay.com/photos/food-steak-meat-soup-beef-bbq-3676793/ Gurkanerol
  - [sundary-roast.jpg] https://unsplash.com/photos/VqTwBiaiSsk Lisa Baker
- - [tables.jpg]
  - [veg-bowl.jpg] https://unsplash.com/photos/IGfIGP5ONV0 Anna Pelzer
  - [veg-vegan-overlay.img] https://unsplash.com/photos/t25uzcDm7fQ Farhad Ibrahimzade
