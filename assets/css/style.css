@@ -221,10 +221,12 @@ tbody{
 
 .menu-images-text-overlay{
   position: absolute;
+  font-size: 18px;
   margin:auto;
+  padding-right: 3px;
   top: 35%;
   left: 35%;
-  width: fit-content;
+  width: 30%;
   text-align: center;
   overflow: hidden;
   font-weight: 500;
@@ -235,7 +237,7 @@ tbody{
   text-transform: uppercase;
 }
 
-.menu-images-text-overlay h2, .menu-images-text-overlay h5{ 
+.menu-images-text-overlay h3, .menu-images-text-overlay h5{ 
   font-family:'Gentium Book Basic', serif;
   color: #0f0004;
   font-weight:700
