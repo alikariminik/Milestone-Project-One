@@ -1,11 +1,65 @@
 # Grizzo's Restaurant README
 
-This is the website for the fiction London-based Restaurant called Grizzo's. It is designed to entice  potential customers enough to make a booking through the use of its various menus and images across a easily navigavle website. The website aims to be responsive and accessibile on a range of devices, making it easy to navigate for customers.
+This is the website for the fictional London-based Restaurant called Grizzo's. It is designed to entice  potential customers enough to make a booking through the use of its various menus and images across a easily navigavle website. The website aims to be responsive and accessibile on a range of devices, making it easy to navigate for customers.
 
+## The Five Planes
 ### The Strategy Plane
-When beginning to think about what a website for a restaurant would require, I began by thinking about the business needs and the customer / user needs. 
+The purpose of this website is to advertise a local restaurant and attract customers to dine here. Before designing the website, it was important to keep this in mind. I knew that when enquiring about a restaurant, customers need a website which is clear, enticing, and easy to navigate quickly. I therefore always knew that I wanted to feature the restaurant's hours in a way which was clearly visible as one of the first things customers would see, a clear menu section, and a gallery page; as they you eat with your eyes before your stomach!
+
+### The Scope Plane
+I have included the following feature in my website:
+* 4 complete pages, which are easy to navigate between, plus 4 pdf files;
+* a Gallery page with maisonette image viewing structure;
+* An interactive Menu Section which reacts to being hovered over and triggers the download of pdfs rather than navigatingto further into the website itself, so that it is always easy for customers to know where to book a reservation when they decise that they want to.
+
+### The Structure Plane
+My website has 4 pages, and I created Wireframes for them by hand, which I have attached here:
+
+!!! INSERT WIREFRAMES !!!
+I have structured each website as follows:
+
+##### Navigation and Footer
+The Nav bar hosts links to all the websites pages and was stuck to the top so that the user could never get lost. 
+
+The footer hosts contact information, the restaurant's address and links to social media pages in the form of Font-Awesome Icons. This facilitates the navbar to take small real estate. 
+
+#### Home Page
+I wanted the home page to show a large hero image which quickly conveys what Grizzo's is all about. Fine Dining. All the key information about the restaurant can be found in this page and the nav bar allows for quick access to making a booking.
+
+#### Menu Page
+The Menu page was designed in this way to boast the variety of menus that Grizzo's has to offer. Opting for a inline-block display, the menus are eye catching, clickable to download, and host importan information for when each item is available to order throughout the week. The background images are bright and showcase more examples of delicious looking food that the individual is made to engage with by clicking on the overlay over them. 
+
+#### Gallery Page
+The whole point of this page was to display several really bright and colourful images in a way which is enticing to customers. I opted for a maisonette viewing structure for this page at the top of the page in order to make the images the central focus on this page. I know images are important for a website, so this page was really about giving customers access to feast their eyes before booking.
+
+#### Booking page
+The booking page was designed to be very simple and easy to use regardless of screensize. This is what ultimately gets bookings into the restaurant so simplicity was key here.
+
+### The Skeleton Plane
+I created my website with a mobile first experience in mind, because the majority of booking reservations are now made following a google search etc, usually on our phones. I have ensured that my website works effectively and looks beautiful on each sized device. 
+
+
+My website focused on a mobile first experience, but I ensured that my website would create a positive user experience on all devices.
+
+#### The Surface Plane
+I have used the following colors throughout my website:
+(yellow colour) made up the bulk of my website, and was chosen because it is warm and inviting. 
+
+(brown color) As it was important that my website had a warm feel which would reflect the experience of being at the restaurant, I felt that greys and blacks were too cool toned to fit within my design. I therefore opted to offset my yellow background and images with a chocolatey brown. 
+
+I have used several images throuhgout my website, which really pop against these colours and are very effective. I have sources these images from the following sites:
+* Pexels
+* Unsplash
+* StockVault
+* Pixabay
+* PicJumbo
+* FreeImages
+* PikWizard
+* Stocksnap
+* RawPixel
 
 ## User Experience (UX)
+When beginning to think about what a website for a restaurant would require, I began by thinking about the business needs and the customer / user needs.
 
  -   #### Customer Goals
     - Immediately understand what the website is trying to offer.
@@ -34,7 +88,7 @@ When beginning to think about what a website for a restaurant would require, I b
 
 -   ### Design
     -   #### Colour Scheme
-        -   The Four main colours used are various shades of Yellow, Orange, White and Black. I have mainly avoided using absolute colours as I found these to be too harsh for the style I wanted to achieve.  
+        -   The Four main colours used are various shades of Yellow, Orange, White and Black. I have mainly avoided using absolute colours as I found these to be too harsh for the style I wanted to achieve. I decided on a color palette with the use of [Coolors]https://coolors.co/7a7978-87cbac-1d1a05-ffd07b-fdb833  
     -   #### Typography
         -   I used the  'Smooch' font for the Logo with 'Cursive' as the fallback font in case for any reason the font isn't being imported into the site correctly. I found 'Smooch' through Google Fonts and I felt as though this font when displaying the name of the restaurant "Grizzo's" gave a clear signature-like look to the site which I felt gave the feeling of a real restaurant.
         - Cursive was used on the Nav Bar as it produced a clean and legible output which is I thought was key for a Nav Bar.
@@ -99,14 +153,13 @@ When beginning to think about what a website for a restaurant would require, I b
 
 ### Validators
 ###### The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-1.    #### [W3C HTML Validator](https://validator.w3.org/nu/) 
+-  #### [W3C HTML Validator](https://validator.w3.org/nu/) 
     -   ###### index.html: Needed to change "alt" to "title" to correctly give alternative text to images which were backgrounds of divs. There were 2 occurences of this.
     -   ###### index.html: [script] was not included within the body. Moved into the bottom of the body.
 
     -   ###### menu.html: Needed to change "alt" to "title" to correctly give alternative text to images which were backgrounds of divs. There were 4 occurences of this.
     -   ###### menu.html: [script] was not included within the body. Moved into the bottom of the body.
-    -   ###### menu.html: Element h3 & h5 not allowed as child of element span in this context. Changed these Spans to Divs to overcome this error. Then  added IDs to these Divs which targetted their heights and widths (overiding "menu-blocks div" height and width which were causing responsiveness issues)
-        Result was a better responsive text-overlay which sat in the center of the images regardless at whatever screen size.
+    -   ###### menu.html: Element h3 & h5 not allowed as child of element span in this context. Changed these Spans to Divs to overcome this error. Then  added IDs to these Divs which targetted their heights and widths (overiding "menu-blocks div" height and width which were causing responsiveness issues) Result was a better responsive text-overlay which sat in the center of the images regardless at whatever screen size.
 
     -   ###### gallery.html: Section lacks heading. Changed Section to Div.
     -   ###### gallery.html: [script] was not included within the body. Moved into the bottom of the body.
@@ -119,3 +172,49 @@ When beginning to think about what a website for a restaurant would require, I b
 
 2.   #### [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - 
     - ##### No Errors Found.
+
+### Responsiveness
+
+Vigorous testing was conducted throughout the development process to ensure that all pages maintained responsiveness as more elements were added on. Using developer tools and adjusting screen dimensions, I have checked to ensure that all content displays clearly over a varierty of screen sizes - primarily on the Mobile, Tablet and Monitors.
+
+#### Resolved Issues
+One major difficulty I had during this development of this website was on the menu page. Setting the text-overlay over the dead center of the image proved to more challenging that initially thought and this took between 2-3 hours of trial and error to resolve. Eventually, I found a CSS code online which managed to get the overlay to position exactly where I want it.
+
+Links to the websites which helped resolve this issues can be found in the Credit section below.
+
+#### Known Bugs
+There is one bug which I have not been able to resolve and that is with the image of the restaurant at the bottom of the home page, just above the footer. On smaller screen sizes, only the top 20-30% of the image shows which cuts out a lot of its meaningful imagery. If I had more time, I would spend longer to resolve this. However, as a work around for now, the image has been included on the gallery page where the full image can be seen on all screen sizes.
+
+### Deployment
+- To deploy the website, I followed the below steps on GitHub. 
+1. Go to "Settings" on the repository 
+2. On "Source" of "GitHub Pages"  
+3. Select "Master" for Branch and click 'Save' 
+4. The website is now published on GitHub Pages and the link is provided in the same section
+
+## Credit
+
+#### Resources 
+- Code Institute course material
+- Code Institute Mentor
+
+#### Code
+https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-css/ - Stephen Shaw
+https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/ - Chris Coyier
+ - A combination of these two webpages together provided me with CSS code that proved to be extremely helpful in allowing me to position the menu-text-overlay in the dead center of the menu image blocks.
+
+ #### Media
+ - [bartender.jpg] https://unsplash.com/photos/Iutgnhkdh2g Andrew C Taylor Jr
+ - [cheers.jpg]
+ - [delivering-order.jpg] https://mystock.themeisle.com/photo/fancy-restaurant/ Cristian Ungureanu
+ - [dinner-overlay.jpg] https://unsplash.com/photos/NYBnDWeOX2c Loija Nguyen
+ - [food-platter.jpg] https://www.pexels.com/photo/food-wood-art-winter-5975427/ Eva Elijas
+ - [hero-image.jpg] https://unsplash.com/photos/N_Y88TWmGwA Jay Wennington
+ - [kitchen_work_restaurant_cook_chef_professional_food_preparation-1327589.jpg] https://pxhere.com/en/photo/1327589
+ - [lunch-overlay.jpg] https://unsplash.dogedoge.com/photos/pCxJvSeSB5A Monika Grabkowska
+ - [noodle-soup.jpg]
+ - [steak.jpg] https://pixabay.com/photos/food-steak-meat-soup-beef-bbq-3676793/ Gurkanerol
+ - [sundary-roast.jpg] https://unsplash.com/photos/VqTwBiaiSsk Lisa Baker
+ - [tables.jpg]
+ - [veg-bowl.jpg] https://unsplash.com/photos/IGfIGP5ONV0 Anna Pelzer
+ - [veg-vegan-overlay.img] https://unsplash.com/photos/t25uzcDm7fQ Farhad Ibrahimzade
