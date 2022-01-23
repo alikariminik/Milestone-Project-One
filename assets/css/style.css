@@ -223,7 +223,7 @@ tbody{
   position: relative;
 }
 
-.menu-images-text-overlay{
+.menu-images-text-overlay{ /*----------See Credit on ReadMe-----------*/
   position: absolute;
   font-size: 18px;
   margin:auto;

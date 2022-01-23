@@ -20,7 +20,19 @@ I have included the following features in my website:
 ### The Structure Plane
 My website has 4 pages, and I created Wireframes for them by hand, which I have attached here:
 
-[Wireframes](assets/wireframes) 
+[wireframes-home-monitor](assets/wireframes/home-monitor-wireframe.jpg)
+[wireframes-home-tablet](assets/wireframes/home-tablet-wireframe.jpg)
+[wireframes-home-mobile](assets/wireframes/home-mobile-wireframe.jpg)
+[wireframes-menu-monitor](assets/wireframes/menu-monitor-wireframe.jpg)
+[wireframes-menu-tablet](assets/wireframes/menu-tablet-wireframe.jpg)
+[wireframes-menu-mobile](assets/wireframes/menu-mobile-wireframe.jpg)
+[wireframes-gallery-monitor](assets/wireframes/gallery-monitor-wireframe.jpg)
+[wireframes-gallery-tablet](assets/wireframes/gallery-tablet-wireframe.jpg)
+[wireframes-gallery-mobile](assets/wireframes/gallery-monbile-wireframe.jpg)
+[wireframes-book-monitor](assets/wireframes/book-monitor-wireframe.jpg)
+[wireframes-book-tablet](assets/wireframes/book-tablet-wireframe.jpg)
+[wireframes-book-mobile]((assets/wireframes/book-mobile-wireframe.jpg))
+
 
 I have structured each website as follows:
 
@@ -207,6 +219,7 @@ There is one bug which I have not been able to resolve and that is with the imag
 #### Resources 
 - Code Institute course material
 - Code Institute Mentor
+- [CodeInstitute-ReadME](https://github.com/Code-Institute-Solutions/SampleREADME)
 
 #### Code
 https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-css/ - Stephen Shaw
