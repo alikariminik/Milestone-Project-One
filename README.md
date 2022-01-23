@@ -98,6 +98,11 @@ When beginning to think about what a website for a restaurant would require, I b
         -   Images over text. When someone visits a restaurant's website, they want to imagine themselves in that restaurant prior to going so that they know what they are potentially going to be spending a signifcant amount of money for. That is why the first thing you see when you access the page is a large back-ground hero image which showcases some of the elegant, eye-catching food that Grizzo's has to offer. This hero-image inconjunction with the the large image of the restaurant itself at the bottom of the Home page capture everything about this restaurant - delicious and elegant looking food in a beautiful, colourful environment.
 
     ### Wire Frames
+    /workspace/Milestone-Project-One/assets/wireframes 
+
+    Wireframes for my 4 pages (3screen-sizes each = 12 total) can be found via the link above or accessing the 'wireframes' folder in 'assets'.
+
+    These wireframes, although drawn by hand, gave provided me with guide as to how each page should look per each of the common screen sizes. The wireframes weren't stuck to exactly - most noticable with the decision to go for 2 menu blocks in a row on the 'menu' page. All through-out the development process I experimented with various designs for differents areas of my page to see what looked good and what didn't and also to further develop my understanding of what properties caused what outcomes.
 
 -   ## Features
 
