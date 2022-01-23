@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
 @import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
 
 /*------ Header------*/
 
@@ -131,7 +130,8 @@ position: relative;
   padding-left: 10px;
   text-align: center;
   color: #320008;
-  font-size: 250%;
+  font-size: 300%;
+  font-family: 'Gentium Book Basic', sans-serif;
 }
 
 .home-introduction{
@@ -190,7 +190,7 @@ tbody{
 
 .menu-heading h1{
   text-align: center;
-  font-family: 'Gentium Book Basic', serif;
+  font-family: 'Gentium Book Basic', sans-serif;
   font-size: 85px;
   line-height: 40px;
   padding-top: 120px;
@@ -227,6 +227,7 @@ tbody{
   top: 35%;
   left: 35%;
   width: 30%;
+  height: fit-content;
   text-align: center;
   overflow: hidden;
   font-weight: 500;
@@ -236,9 +237,28 @@ tbody{
   border-width: 4px;
   text-transform: uppercase;
 }
+#lunch-text-overlay{
+  height: 150px;
+  width: 200px;
+}
 
-.menu-images-text-overlay h3, .menu-images-text-overlay h5{ 
-  font-family:'Gentium Book Basic', serif;
+#dinner-text-overlay{
+  height: 150px;
+  width: 200px;
+}
+
+#sunday-text-overlay{
+  height: 150px;
+  width: 200px;
+}
+
+#vegetarian-text-overlay{
+  height: 150px;
+  width: 200px;
+}
+
+.menu-images-text-overlay h2, .menu-images-text-overlay h4{ 
+  font-family:'Gentium Book Basic', sans-serif;
   color: #0f0004;
   font-weight:700
 }
@@ -315,7 +335,7 @@ tbody{
 
 .booking-heading h2{
   text-align: center;
-  font-family: 'Gentium Book Basic', serif;
+  font-family: 'Gentium Book Basic', sans-serif;
   font-size: 85px;
   line-height: 60px;
   padding-top: 150px;
@@ -339,10 +359,11 @@ tbody{
   
 }
 
-.booking-form button{
+#submit-button{
   width: fit-content;
   letter-spacing: 2px;
   font-size: 20px;
+  font-family: 'Gentium Book Basic', sans-serif;
   font-weight: 600;
   background-color: #54000b;
   color: #f3ca36;
@@ -352,10 +373,10 @@ tbody{
 /*-----------------Booking form hover------------------*/
 
 
-.booking-form button:hover{
+#submit-button:hover{
   background-color: #b86500;
   color:#54000b;
-  font-size: 120%;
+  font-size: 180%;
 }
 
 /*-----------------Footer------------------*/
