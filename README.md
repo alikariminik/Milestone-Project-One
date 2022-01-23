@@ -1,27 +1,33 @@
 # Grizzo's Restaurant README
+Here is a link to the website [Grizzo's](https://8000-alikariminik-milestonepr-uuir1y00e8j.ws-eu27.gitpod.io/index.html)
 
-This is the website for the fictional London-based Restaurant called Grizzo's. It is designed to entice  potential customers enough to make a booking through the use of its various menus and images across a easily navigavle website. The website aims to be responsive and accessibile on a range of devices, making it easy to navigate for customers.
+## What is this ReadME for?
+This is the ReadMe for the website for the fictional London-based Restaurant called Grizzo's. It is designed to entice  potential customers enough to make a booking through the use of its various menus and images across a easily navigavle website. The website aims to be responsive and accessibile on a range of devices, making it easy to navigate for customers.
+
+![Markup](assets/css/markup/Mockup.PNG)
 
 ## The Five Planes
 ### The Strategy Plane
-The purpose of this website is to advertise a local restaurant and attract customers to dine here. Before designing the website, it was important to keep this in mind. I knew that when enquiring about a restaurant, customers need a website which is clear, enticing, and easy to navigate quickly. I therefore always knew that I wanted to feature the restaurant's hours in a way which was clearly visible as one of the first things customers would see, a clear menu section, and a gallery page; as they you eat with your eyes before your stomach!
+The purpose of this website is to advertise a local restaurant and attract customers to dine here. Before designing the website, it was important to keep this in mind. I knew that when enquiring about a restaurant, customers need a website which is clear, enticing, and easy to navigate quickly. Therefore I thought it was important to feature the restaurant's business hours in a way which was clearly visible and as one of the first things customers would see, a clear menu section, and a gallery page;filled with lots of beautiful images. As part of my research into what makes a good restaurant, I browsed the websites of restaurants I had visited throughout my life to try to draw inspiration.
 
 ### The Scope Plane
-I have included the following feature in my website:
+I have included the following features in my website:
 * 4 complete pages, which are easy to navigate between, plus 4 pdf files;
 * a Gallery page with maisonette image viewing structure;
 * An interactive Menu Section which reacts to being hovered over and triggers the download of pdfs rather than navigatingto further into the website itself, so that it is always easy for customers to know where to book a reservation when they decise that they want to.
+* A Booking Form which contains names, emails, date & times.
 
 ### The Structure Plane
 My website has 4 pages, and I created Wireframes for them by hand, which I have attached here:
 
-!!! INSERT WIREFRAMES !!!
+[Wireframes](assets/wireframes) 
+
 I have structured each website as follows:
 
 ##### Navigation and Footer
-The Nav bar hosts links to all the websites pages and was stuck to the top so that the user could never get lost. 
+The Nav bar hosts links to all the websites pages and is stuck to the top so that the user can always open any of the other pages on the website, wherever they currently are on the screen. Additionally, the nav bar has a collapsable drop-down menu / burger icon which displays on smaller screens. This results in less real estate being taken up on small screens but also maintains the goal purpose of the navbar which was to ensure site-wide navigation is only a couple taps / clicks away.  
 
-The footer hosts contact information, the restaurant's address and links to social media pages in the form of Font-Awesome Icons. This facilitates the navbar to take small real estate. 
+The footer hosts contact information, the restaurant's address and links to social media pages in the form of Font-Awesome Icons. This facilitates for the footer to take up a small amount real estate. 
 
 #### Home Page
 I wanted the home page to show a large hero image which quickly conveys what Grizzo's is all about. Fine Dining. All the key information about the restaurant can be found in this page and the nav bar allows for quick access to making a booking.
@@ -47,16 +53,12 @@ I have used the following colors throughout my website:
 
 (brown color) As it was important that my website had a warm feel which would reflect the experience of being at the restaurant, I felt that greys and blacks were too cool toned to fit within my design. I therefore opted to offset my yellow background and images with a chocolatey brown. 
 
-I have used several images throuhgout my website, which really pop against these colours and are very effective. I have sources these images from the following sites:
+I have used several images throuhgout my website, which really pop against these colours and are very effective. I browsed the content on the following sites:
 * Pexels
 * Unsplash
 * StockVault
-* Pixabay
-* PicJumbo
-* FreeImages
-* PikWizard
-* Stocksnap
-* RawPixel
+
+Exact links to the specific images can be found below in the 'Credit' section.
 
 ## User Experience (UX)
 When beginning to think about what a website for a restaurant would require, I began by thinking about the business needs and the customer / user needs.
@@ -83,26 +85,26 @@ When beginning to think about what a website for a restaurant would require, I b
 
         #### Returninng Visitor Goals
 
-        1. As a Returning Visitor, I want to be able to very quickly find how to book a table or if already have a booking, find a contact number in order to amend the booking.
+        1. As a Returning Visitor, I want to be able to very quickly find how to book a table or if already have a booking, find a contact number in case the customer needed to speak to a member of the team.
     
 
 -   ### Design
     -   #### Colour Scheme
         -   The Four main colours used are various shades of Yellow, Orange, White and Black. I have mainly avoided using absolute colours as I found these to be too harsh for the style I wanted to achieve. I decided on a color palette with the use of [Coolors]https://coolors.co/7a7978-87cbac-1d1a05-ffd07b-fdb833  
     -   #### Typography
-        -   I used the  'Smooch' font for the Logo with 'Cursive' as the fallback font in case for any reason the font isn't being imported into the site correctly. I found 'Smooch' through Google Fonts and I felt as though this font when displaying the name of the restaurant "Grizzo's" gave a clear signature-like look to the site which I felt gave the feeling of a real restaurant.
+        -   I used the  'Smooch' font for the Logo with 'Cursive' as the fallback font in case for any reason the font isn't being imported into the site correctly. I found 'Smooch' through Google Fonts and I felt as though this font; when displaying the name of the restaurant "Grizzo's"; gave a clear legible signature-like look to the site which I felt gave the feeling of a real restaurant.
         - Cursive was used on the Nav Bar as it produced a clean and legible output which is I thought was key for a Nav Bar.
-        - 'Gentium Book Basic' was used as Headings across the various site pages to ensure legibility consistency with Sans-Serif used as a fallback font.
+        - 'Gentium Book Basic' was used as Headings across the various site pages to ensure legibility consistency, with Sans-Serif used as a fallback font.
 
     -   #### Imagery
         -   Images over text. When someone visits a restaurant's website, they want to imagine themselves in that restaurant prior to going so that they know what they are potentially going to be spending a signifcant amount of money for. That is why the first thing you see when you access the page is a large back-ground hero image which showcases some of the elegant, eye-catching food that Grizzo's has to offer. This hero-image inconjunction with the the large image of the restaurant itself at the bottom of the Home page capture everything about this restaurant - delicious and elegant looking food in a beautiful, colourful environment.
 
     ### Wire Frames
-    /workspace/Milestone-Project-One/assets/wireframes 
+    All [Wireframes](/workspace/Milestone-Project-One/assets/wireframes) can be viewed here.
 
-    Wireframes for my 4 pages (3screen-sizes each = 12 total) can be found via the link above or accessing the 'wireframes' folder in 'assets'.
+    Wireframes for my 4 pages (3screen-sizes each = 12 total) can be found via the link above or by accessing the 'wireframes' folder in 'assets'.
 
-    These wireframes, although drawn by hand, gave provided me with guide as to how each page should look per each of the common screen sizes. The wireframes weren't stuck to exactly - most noticable with the decision to go for 2 menu blocks in a row on the 'menu' page. All through-out the development process I experimented with various designs for differents areas of my page to see what looked good and what didn't and also to further develop my understanding of what properties caused what outcomes.
+    These wireframes, although drawn by hand, provided me with a guide as to how each page should look per each of the common screen sizes. The wireframes weren't stuck to exactly - most noticably with the decision to go for 2 menu blocks in a row on the 'menu' page, rather than all of them inline. All through-out the development process, I experimented with various designs for differents areas of my page to see what looked good and what didn't; and also to further develop my understanding of what properties caused what outcomes.
 
 -   ## Features
 
@@ -111,6 +113,7 @@ When beginning to think about what a website for a restaurant would require, I b
         -   Booking Form
         -   Gallery which showcases food, interior of the restaurant such as: tables, bar etc.
         -   Table of Business Hours
+        -   Downloadable menus
         -   NavBar with Responsive 'Burger Icon'
         -   Interactive elements - Hover.
 
@@ -128,9 +131,9 @@ When beginning to think about what a website for a restaurant would require, I b
 ### Frameworks, Libraries & Programs Used
 
 -   [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
+    - Bootstrap was used to assist with the responsiveness and styling of the website. In particular Bootstrap was useful for designing a responsive and tidy looking footer.
 -   [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    - Hover.css was used on the Social Media icons in the footer to add a contrasting color while being hovered over. This was also used in the navbar when hovering over a page link and the logo.
 -   [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Smooch' & 'Gentium' font into the style.css file which is used on throughout the pages of project - further details in Design > Typography section of this file.
 -   [Font Awesome:](https://fontawesome.com/)
@@ -157,26 +160,28 @@ When beginning to think about what a website for a restaurant would require, I b
 
 
 ### Validators
-###### The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
--  #### [W3C HTML Validator](https://validator.w3.org/nu/) 
-    -   ###### index.html: Needed to change "alt" to "title" to correctly give alternative text to images which were backgrounds of divs. There were 2 occurences of this.
-    -   ###### index.html: [script] was not included within the body. Moved into the bottom of the body.
 
-    -   ###### menu.html: Needed to change "alt" to "title" to correctly give alternative text to images which were backgrounds of divs. There were 4 occurences of this.
-    -   ###### menu.html: [script] was not included within the body. Moved into the bottom of the body.
-    -   ###### menu.html: Element h3 & h5 not allowed as child of element span in this context. Changed these Spans to Divs to overcome this error. Then  added IDs to these Divs which targetted their heights and widths (overiding "menu-blocks div" height and width which were causing responsiveness issues) Result was a better responsive text-overlay which sat in the center of the images regardless at whatever screen size.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-    -   ###### gallery.html: Section lacks heading. Changed Section to Div.
-    -   ###### gallery.html: [script] was not included within the body. Moved into the bottom of the body.
+* [W3C HTML Validator](https://validator.w3.org/nu/) 
+    -   index.html: Needed to change "alt" to "title" to correctly give alternative text to images which were backgrounds of divs. There were 2 occurences of this.
+    -   index.html: [script] was not included within the body. Moved into the bottom of the body.
 
-    -   ###### booking.html: No space between attributes. 2 occurences.
-    -   ###### booking.html: The element button must not appear as a descendant of the a element. Removed.
-    -   ###### booking.html:Attribute placeholder is only allowed when the input type is email, number, password, search, tel, text, or url. Removed placeholder.
-    -   ###### booking.html:Attribute placeholder is only allowed when the input type is email, number, password, search, tel, text, or url. Removed placeholder.
-    -   ###### booking.html: Bad value 23/01/2022 for attribute min on element input. Removed.
+    -   menu.html: Needed to change "alt" to "title" to correctly give alternative text to images which were backgrounds of divs. There were 4 occurences of this.
+    -   menu.html: [script] was not included within the body. Moved into the bottom of the body.
+    -   menu.html: Element h3 & h5 not allowed as child of element span in this context. Changed these Spans to Divs to overcome this error. Then  added IDs to these Divs which targetted their heights and widths (overiding "menu-blocks div" height and width which were causing responsiveness issues) Result was a better responsive text-overlay which sat in the center of the images regardless at whatever screen size.
 
-2.   #### [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - 
-    - ##### No Errors Found.
+    -   gallery.html: Section lacks heading. Changed Section to Div.
+    -   gallery.html: [script] was not included within the body. Moved into the bottom of the body.
+
+    -   booking.html: No space between attributes. 2 occurences.
+    -   booking.html: The element button must not appear as a descendant of the a element. Removed.
+    -   booking.html:Attribute placeholder is only allowed when the input type is email, number, password, search, tel, text, or url. Removed placeholder.
+    -   booking.html:Attribute placeholder is only allowed when the input type is email, number, password, search, tel, text, or url. Removed placeholder.
+    -   booking.html: Bad value 23/01/2022 for attribute min on element input. Removed.
+
+*   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - 
+    -  No Errors Found.
 
 ### Responsiveness
 
@@ -190,7 +195,7 @@ Links to the websites which helped resolve this issues can be found in the Credi
 #### Known Bugs
 There is one bug which I have not been able to resolve and that is with the image of the restaurant at the bottom of the home page, just above the footer. On smaller screen sizes, only the top 20-30% of the image shows which cuts out a lot of its meaningful imagery. If I had more time, I would spend longer to resolve this. However, as a work around for now, the image has been included on the gallery page where the full image can be seen on all screen sizes.
 
-### Deployment
+## Deployment
 - To deploy the website, I followed the below steps on GitHub. 
 1. Go to "Settings" on the repository 
 2. On "Source" of "GitHub Pages"  
@@ -216,7 +221,7 @@ https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-ce
  - [happy-bar.jpg] https://unsplash.com/photos/GqC_kGJOuaM Elevate
  - [happy-family.jpg] https://unsplash.com/photos/wYOPqmtDD0w Pablo Merchan Montes
  - [hero-image.jpg] https://unsplash.com/photos/N_Y88TWmGwA Jay Wennington
- - [kitchen_work_restaurant_cook_chef_professional_food_preparation-1327589.jpg] https://pxhere.com/en/photo/1327589
+ - [kitchen-work.jpg] https://pxhere.com/en/photo/1327589
  - [lunch-overlay.jpg] https://unsplash.dogedoge.com/photos/pCxJvSeSB5A Monika Grabkowska
  - [salmon-and-wine.jpg] https://unsplash.com/photos/awj7sRviVXo Casey Lee
  - [steak.jpg] https://pixabay.com/photos/food-steak-meat-soup-beef-bbq-3676793/ Gurkanerol

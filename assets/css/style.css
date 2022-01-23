@@ -81,6 +81,10 @@ background-size: cover;
 height: 100%;
 width: 100%;
 position: absolute;
+
+animation-name: hero-zoom;
+animation-duration: 8s;
+animation-fill-mode: forwards;
 }
 
 .hero-image-container{
@@ -107,7 +111,7 @@ position: relative;
 
 @keyframes hero-zoom {
   from {
-    transform:scale(1);
+    transform: scale(1);
   }
 
   to {
@@ -193,7 +197,7 @@ tbody{
   font-family: 'Gentium Book Basic', sans-serif;
   font-size: 85px;
   line-height: 40px;
-  padding-top: 120px;
+  padding-top: 150px;
   color: #320008;
 }
 
