@@ -87,34 +87,35 @@ When beginning to think about what a website for a restaurant would require, I b
 
 -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to quickly understand the main purpose of the site.
+    1. As a First Time Visitor, I want to quickly understand the main purpose of the site.
             - Immediately when the site loads, you are greeted with the nav bar, hero image and the hero image text overlay. The combination of all 3 (primariliy hero image and hero image text overlay) convey the message that this is a fine dining restaurant. 
 
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content. Other information such as Location, Contact Details and Business Hours should be easily findable. 
+    2.  As a First Time Visitor, I want to be able to easily navigate throughout the site to find content. Other information such as Location, Contact Details and Business Hours should be easily findable. 
             - The Nav bar is visible straight away and the navigation destinations are clearly defined  through their titles on the nav bar: Menu directs the user to the menus, Gallery to the photos of the restaurant and Book Now to the booking form.
             - Location, Contact Details and Business Hours can all be found on the Home Page. However, on review, I feel as though this information should be included on a seperate page as well as in the footer just incase there are some users who are unaware to check the nav bar. This is something to remember for future projects.
-        3. As a First Time Visitor, I want to see their menus, decide on whether there is anything I would like to have their, and if so, be able to book a table quickly and easily.
+    3.   As a First Time Visitor, I want to see their menus, decide on whether there is anything I would like to have their, and if so, be able to book a table quickly and easily.
             - As mentioned above, the menus and booking form are included in the nav bar which allows for quick and easy navigation. 
 
 
 ### Validators
 ###### The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
--    [W3C HTML Validator](https://validator.w3.org/nu/) - 
-    -   index.html: Needed to change "alt" to "title" to correctly give alternative text to images which were backgrounds of divs. There were 2 occurences of this.
-    -   index.html: <script> was not included within the body. Moved into the bottom of the body.
+1.    #### [W3C HTML Validator](https://validator.w3.org/nu/) 
+    -   ###### index.html: Needed to change "alt" to "title" to correctly give alternative text to images which were backgrounds of divs. There were 2 occurences of this.
+    -   ###### index.html: [script] was not included within the body. Moved into the bottom of the body.
 
-    -   menu.html: Needed to change "alt" to "title" to correctly give alternative text to images which were backgrounds of divs. There were 4 occurences of this.
-    -   menu.html: <script> was not included within the body. Moved into the bottom of the body.
-    -   menu.html: Element h3 & h5 not allowed as child of element span in this context. Changed these Spans to Divs to overcome this error. Then  added IDs to these Divs which targetted their heights and widths (overiding "menu-blocks div" height and width which were causing responsiveness issues)
+    -   ###### menu.html: Needed to change "alt" to "title" to correctly give alternative text to images which were backgrounds of divs. There were 4 occurences of this.
+    -   ###### menu.html: [script] was not included within the body. Moved into the bottom of the body.
+    -   ###### menu.html: Element h3 & h5 not allowed as child of element span in this context. Changed these Spans to Divs to overcome this error. Then  added IDs to these Divs which targetted their heights and widths (overiding "menu-blocks div" height and width which were causing responsiveness issues)
         Result was a better responsive text-overlay which sat in the center of the images regardless at whatever screen size.
 
-    -   gallery.html: Section lacks heading. Changed Section to Div.
-    -   gallery.html: <script> was not included within the body. Moved into the bottom of the body.
+    -   ###### gallery.html: Section lacks heading. Changed Section to Div.
+    -   ###### gallery.html: [script] was not included within the body. Moved into the bottom of the body.
 
-    -   booking.html: No space between attributes. 2 occurences.
-    -   booking.html: The element button must not appear as a descendant of the a element. Removed.
-    -   booking.html:Attribute placeholder is only allowed when the input type is email, number, password, search, tel, text, or url. Removed placeholder.
-    -   booking.html:Attribute placeholder is only allowed when the input type is email, number, password, search, tel, text, or url. Removed placeholder.
-    -   booking.html: Bad value 23/01/2022 for attribute min on element input. Removed.
+    -   ###### booking.html: No space between attributes. 2 occurences.
+    -   ###### booking.html: The element button must not appear as a descendant of the a element. Removed.
+    -   ###### booking.html:Attribute placeholder is only allowed when the input type is email, number, password, search, tel, text, or url. Removed placeholder.
+    -   ###### booking.html:Attribute placeholder is only allowed when the input type is email, number, password, search, tel, text, or url. Removed placeholder.
+    -   ###### booking.html: Bad value 23/01/2022 for attribute min on element input. Removed.
 
-    -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - 
+2.   #### [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - 
+    - ##### No Errors Found.
